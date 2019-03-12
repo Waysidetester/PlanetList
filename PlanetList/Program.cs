@@ -110,7 +110,7 @@ namespace PlanetList
                         shuttles += $"{shuttle}";
                     }
                 }
-                Console.WriteLine($"{planet}: {shuttles}");
+                Console.WriteLine($"{planet}: {shuttles}\n");
             }
 
             Console.ReadKey();
